@@ -1,0 +1,471 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    transition: .6s ease-in-out;
+   
+   }
+  .cover {
+    background-image: url('../imag/bg.jpg');
+    background-size: cover;
+    min-height: 50rem;
+    height: auto;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+/* start navbar */
+
+#navbar{
+    position: fixed;
+    padding:9px 20px;
+    -webkit-transition: 0.2s padding;
+    transition: 0.2s padding;
+    z-index: 999;
+    transition: .6s ease-in-out;
+}
+.solid{
+    background-color:#0e1124;
+    box-shadow: 0px 0px 9px -1px #c6c6c6;
+    
+}
+.solid .navbar-brand, .solid .navbar-nav li a, .solid .nav-submit {
+    color:white !important;
+}
+.solid button .btn .btn-outline:hover {color: #fff;}
+.solid .nav-submit:hover{color: #fff  !important; border-color: white;}
+.navbar-light .navbar-nav .nav-link{
+    color:#4C4FF7;
+    font-size:20px;
+    font-weight: bold;}
+
+ul.navbar-nav{
+    font-size: 18px;
+    text-decoration: none;
+}
+.collapse a{
+   color: #fff;
+   padding-right: 20px;
+}
+.collapse a:hover{
+    color: #4C4FF7;
+    text-decoration: none;
+}
+.navbar-light .navbar-brand
+{
+   color: #fff;
+   font-size: 30px;
+   font-weight: bold;
+}
+.navbar-light .navbar-brand:hover{
+    color: #4c4ff7;
+}
+button.btn-outline{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: auto;
+
+}
+button.btn-outline:hover{
+    background: #4C4FF7;
+ 
+    border: 1px solid #4C4FF7;
+}
+.caption .container{
+    padding-top:25vh;
+}
+.caption h1{
+    font-size:45px;
+    margin-bottom:20px;
+    line-height:55px;
+    
+}
+.caption .lead{
+
+  margin-left: 70px;
+   margin-right:70px;
+   padding-top: 15px;
+   line-height: 2rem;
+}
+
+/*WHO WE ARE*/
+#about {
+  
+    background:url(../imag/about-b.jpg)no-repeat center center fixed;
+    width:100%;
+    min-height: 600px;
+   
+}
+.about .overlay{
+        background: rgba(160, 160, 160, 0.53);
+    color:#B6B5B5;
+    min-height: 600px;
+    -webkit-bacground-size:cover;
+    background-size: cover;
+}
+.about .about-us{
+    padding: 80px 0;
+    margin: 0 auto;
+
+  
+}
+.about .sub-title{
+    color: #4C4FF7;
+
+}
+.about .title{
+    font-size: 34px;
+    color: #13162D;
+    margin-bottom: 25px;
+    font-weight:Bold;
+
+
+   
+}
+.about .lead{
+    color: #64656E;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 25px;
+}
+/*our services*/
+
+#service{
+    padding: 80px 0;
+}
+.service .title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.service .lead{
+    color:#7E7E7E;
+    font-size-adjust: 25px;
+    margin-bottom: 40px;
+}
+.service .sub-title{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #4C4FF7;
+}
+.service .row{
+    margin-bottom: 20px;
+}
+.service .card{
+    height: 100%;
+    background: #EFEFEF;
+
+}
+.card .card-title{
+    font-weight: bold;
+    font-size: 23PX;
+    line-height: 1.5;
+    }
+.card .card-text{
+    color: #64656E; 
+    line-height: 1.5;
+    margin-top: 30px;
+    }
+.card .item-icon{
+    color: #4C4FF7;
+    line-height: 1.5;
+    }
+.item-icon i{
+
+    font-size: 20px;
+    }
+    i.far.fa-paper-plane{
+        padding-top: 48px;
+    }
+
+.item-icon i.fas.fa-edit,i.fas.fa-mobile-alt{
+    padding-top: 44px;
+    }
+    i.fas.fa-cog{padding-top: 12px;}
+
+    i.far.fa-thumbs-up,i.fas.fa-phone-volume{
+        padding-top: 25px;
+    }
+    i.far.fa-lightbulb{
+        padding-top: 39px;
+    }
+    .service .card:hover{
+        background: rgba(41, 89, 194, 0.6);
+        color: #fff;
+    }
+    .service .card-body:hover .card-text,
+    .service .card-body:hover .card-icon{
+        color: #fff;
+    }
+
+    /*our-technology*//*dont forget responsive*/
+    .technology{
+        background:#13162d;
+        background-size: cover;
+        height: 800px;
+        padding-top: 100px;
+    }
+
+    
+    .technology .desc{
+        font-weight: bold;
+        color: #fff;
+        text-align: 2rem;
+     
+    }
+    .technology .lead{
+        color: aliceblue;
+        margin-left: -25px;
+        padding-bottom: 15px;
+        padding-top: 20px;
+    }
+   
+    
+    .tech p.btn{
+        background:#0e1124;
+        color: #fff;
+        text-align: left;
+     width: 100%;
+     padding: 0rem 0rem;
+     padding-right: 234px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+        }
+
+  
+    
+    .tech .btn:hover{background:#4c4ff7;}
+  
+.content{
+    padding-top: 55px;
+}
+ 
+
+    .front-end-tec .card{
+        padding-top: 30px;
+        margin-bottom: 30px;
+        background: #22253b;
+        color: #f7f7f7;
+        margin-right:15px; 
+     
+    }
+    .back-end-tec .card{
+        padding-top: 30px;
+        margin-bottom: 30px;
+        background: #22253b;
+        color: #f7f7f7;
+        margin-right:15px; 
+     
+    }
+    .mob-devp-tec .card{
+        padding-top: 30px;
+        margin-bottom: 30px;
+        background: #22253b;
+        color: #f7f7f7;
+        margin-right:15px; 
+     
+    }
+    .Database-tec .card{
+        padding-top: 30px;
+        margin-bottom: 30px;
+        background: #22253b;
+        color: #f7f7f7;
+        margin-right:15px; 
+     
+    }
+    .cloud-tec .card{
+        padding-top: 30px;
+        margin-bottom: 30px;
+        background: #22253b;
+        color: #f7f7f7;
+        margin-right:15px; 
+     
+    }
+   
+/*contact-us*/
+.CONTACT-US{
+    position: absolute;
+    background: url(../imag/contact.jpg) no-repeat center center fixed;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    color: #0e1124;
+}
+.CONTACT-US .overlay{
+    background: rgba(29, 28, 28, 0.63);
+    background-size: cover;
+    height: 600px;
+  
+}
+.CONTACT-US h3{
+    padding-top: 60px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: 2rem;
+}
+.CONTACT-US p{
+    color: #1f1e1e;
+    font-size: 20px;
+   
+}
+
+.CONTACT-US .form-control{
+   padding-top: 30px;
+   background: transparent;
+   border: none;
+   border-radius: 0;
+   border-bottom: 2px solid#fff;
+   color:#fff;
+
+}
+.CONTACT-US .form-control:focus{
+    outline: 0;
+    border-bottom: 2px solid#4C4FF7;
+}
+.CONTACT-US .area{
+    padding-top: 75px;
+    width: 55%;
+    margin-top: 20px;
+    margin-left: 10px;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid#1c1c2b;
+    color: #ffffff;
+
+}
+.CONTACT-US .area:focus{
+
+    border-bottom:2px solid #4C4FF7;
+}
+textarea:focus{
+  
+    outline:0;
+    border-bottom:2px solid #4C4FF7;
+}
+.form-row>[class*=col-] {
+    padding-right: 20px; 
+    padding-left: 20px}
+
+.CONTACT-US .contact{
+padding: 15px 60px;
+    border: 1px solid #fff;
+    border-radius: 14px;
+    margin-top: 90px;
+    color:#fff;
+    background: transparent;
+    font-size: 20px;
+}
+.CONTACT-US .contact:hover{
+    border: 2px solid #4c4ff7;
+    background: #4c4ff7;
+    color: #EFEFEF;
+}
+
+
+
+
+@media screen and (max-width: 992px){
+    .navbar-nav li{
+        margin-bottom: 9px;
+        color: #4c4ff7
+
+    }
+    .navbar-nav li:hover{
+        text-decoration: none;
+        background-color:#4c4ff7;
+        color: #fff;
+        
+    }
+ .navbar-collapse{
+    background: #0e1124;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+     width: 100%;
+     border: 1px solid ##0e1124;
+     border-radius: 10px;
+  
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  
+    }
+    .navbar-light .navbar-toggler{border-style:none;}
+    .navbar-light .navbar-toggler:focus{outline: 0;}
+   span .fas.fa-bars {
+       color: #fff;
+       font-size: 25px;
+      
+   }
+   span .fas.fa-bars:active{
+    color: #fff;
+    font-size: 25px;
+    outline:0;
+   
+}
+    .service .serv-card{
+        margin-bottom: 15px !important;
+    }
+
+    .about .about-us{
+        padding: 80px 5px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .caption h1{
+        font-size: 45px;
+        margin-bottom: 55px;
+        line-height: 55px;
+    }
+    .caption .lead{
+        padding-top: 12px;
+        line-height: 2rem;
+        padding-bottom: 25px;  
+    }
+    .form-inline{
+        padding-top: 5px;
+       display:block;
+    }
+    .technology{
+        text-align:center;
+        background:#13162d;
+        background-size:cover;
+        height:100%;
+        padding-top: 80px;
+    }
+    p .btn{
+        text-align: left;
+        padding: 5px auto;
+        background: #0e1124;
+        margin-bottom: 10px;
+    
+
+    }
+    .front-end-tec .card{
+        margin-top: 15px;
+    }
+    .CONTACT-US {
+        height: 900px;
+    }
+    .CONTACT-US .overlay{
+        background: rgba(29, 28, 28, 0.63);
+        background-size: cover;
+        height: 900px;
+}
+.tech p.btn{
+    background:#0e1124;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 234px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    }
+
+}
+
